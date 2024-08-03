@@ -1,0 +1,13 @@
+{
+  "questionId": "792",
+  "difficulty": "Easy",
+  "title": "二分查找",
+  "tags": [
+    "数组",
+    "二分查找"
+  ],
+  "link": " https://leetcode.cn/problems/binary-search/description/",
+  "category": "数组",
+  "createTime": "2024-08-01 11:12:20",
+  "updateTime": "2024-08-01 11:12:20"
+}

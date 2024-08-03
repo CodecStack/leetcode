@@ -1,0 +1,13 @@
+{
+  "questionId": "27",
+  "difficulty": "Easy",
+  "title": "移除元素",
+  "tags": [
+    "数组",
+    "双指针"
+  ],
+  "link": "https://leetcode.cn/problems/remove-element/description/",
+  "category": "数组",
+  "createTime": "2024-08-01 11:13:56",
+  "updateTime": "2024-08-01 11:13:56"
+}
