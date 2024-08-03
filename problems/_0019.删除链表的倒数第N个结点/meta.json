@@ -1,0 +1,13 @@
+{
+  "questionId": "19",
+  "difficulty": "Medium",
+  "title": "删除链表的倒数第 N 个结点",
+  "tags": [
+    "链表",
+    "双指针"
+  ],
+  "link": "https://leetcode.cn/problems/remove-nth-node-from-end-of-list/description/",
+  "category": "链表",
+  "createTime": "2024-08-03 18:17:36",
+  "updateTime": "2024-08-03 18:17:36"
+}
