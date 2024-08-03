@@ -81,7 +81,7 @@ async function generateQuestion(config) {
         const questionInfo = result.reduce((accumulator, currentValue) => ({...accumulator, ...currentValue}))
         const date = formatDate(new Date())
         Object.assign(questionInfo, {link: config.link, category: config.category, createTime: date, updateTime: date})
-        const directoryName = `_${'0'.repeat(4 - questionInfo.questionId.length) + questionInfo.questionId}.${questionInfo.title}`
+        const directoryName = `_${'0'.repeat(4 - questionInfo.questionId.length) + questionInfo.questionId}.${questionInfo.title.replaceAll(' ', '')}`
         const directoryPath = `problems/${directoryName}`
         if (fs.existsSync(directoryPath)) throw new Error("文件目录已存在，请删除后重试")
         else fs.mkdirSync(directoryPath, {recursive: true})
