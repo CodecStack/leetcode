@@ -1,0 +1,13 @@
+{
+  "questionId": "206",
+  "difficulty": "Easy",
+  "title": "反转链表",
+  "tags": [
+    "递归",
+    "链表"
+  ],
+  "link": "https://leetcode.cn/problems/reverse-linked-list/description/",
+  "category": "链表",
+  "createTime": "2024-08-02 11:03:13",
+  "updateTime": "2024-08-02 11:03:13"
+}
